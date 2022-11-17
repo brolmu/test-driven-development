@@ -5,9 +5,9 @@ import Calculator, { equalText, numbers, operations } from "../src/Calculator";
 describe("calculator", () => {
   afterEach(cleanup);
 
-  it("should render", () => {
-    render(<Calculator />);
-  });
+//   it("should render", () => {
+//     render(<Calculator />);
+//   });
 
   it("should render title correctly", () => {
     render(<Calculator />);
